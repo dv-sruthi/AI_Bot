@@ -1,0 +1,27 @@
+name: NVAI
+description: "A new Flutter project."
+publish_to: 'none' 
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  flutter_gemini: ^2.0.3
+  image_picker: ^1.0.7
+  dash_chat_2: ^0.0.20
+  video_player: ^0.10.5+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
